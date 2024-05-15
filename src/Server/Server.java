@@ -85,6 +85,7 @@ public class Server extends javax.swing.JFrame {
 
         btnIniciar.setBackground(new java.awt.Color(102, 0, 204));
         btnIniciar.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        btnIniciar.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciar.setText("Iniciar servidor");
         btnIniciar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnIniciar.addActionListener(new java.awt.event.ActionListener() {
@@ -95,6 +96,7 @@ public class Server extends javax.swing.JFrame {
 
         btnDetener.setBackground(new java.awt.Color(102, 0, 204));
         btnDetener.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        btnDetener.setForeground(new java.awt.Color(255, 255, 255));
         btnDetener.setText("Detener servidor");
         btnDetener.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
